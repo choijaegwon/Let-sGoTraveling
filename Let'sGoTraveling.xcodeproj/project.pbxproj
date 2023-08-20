@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D41F5C322A91AC2D0060081B /* Let_sGoTravelingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F5C312A91AC2D0060081B /* Let_sGoTravelingApp.swift */; };
-		D41F5C342A91AC2D0060081B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F5C332A91AC2D0060081B /* ContentView.swift */; };
+		D41F5C342A91AC2D0060081B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F5C332A91AC2D0060081B /* MainView.swift */; };
 		D41F5C362A91AC2E0060081B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41F5C352A91AC2E0060081B /* Assets.xcassets */; };
 		D41F5C3A2A91AC2E0060081B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41F5C392A91AC2E0060081B /* Preview Assets.xcassets */; };
 		D41F5C412A91ACC40060081B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F5C402A91ACC40060081B /* Util.swift */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		D41F5C2E2A91AC2D0060081B /* Let'sGoTraveling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Let'sGoTraveling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41F5C312A91AC2D0060081B /* Let_sGoTravelingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Let_sGoTravelingApp.swift; sourceTree = "<group>"; };
-		D41F5C332A91AC2D0060081B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D41F5C332A91AC2D0060081B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D41F5C352A91AC2E0060081B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D41F5C372A91AC2E0060081B /* Let_sGoTraveling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Let_sGoTraveling.entitlements; sourceTree = "<group>"; };
 		D41F5C392A91AC2E0060081B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				D41F5C312A91AC2D0060081B /* Let_sGoTravelingApp.swift */,
-				D41F5C332A91AC2D0060081B /* ContentView.swift */,
+				D41F5C332A91AC2D0060081B /* MainView.swift */,
 				D41F5C352A91AC2E0060081B /* Assets.xcassets */,
 				D41F5C372A91AC2E0060081B /* Let_sGoTraveling.entitlements */,
 				D41F5C382A91AC2E0060081B /* Preview Content */,
@@ -142,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41F5C342A91AC2D0060081B /* ContentView.swift in Sources */,
+				D41F5C342A91AC2D0060081B /* MainView.swift in Sources */,
 				D41F5C412A91ACC40060081B /* Util.swift in Sources */,
 				D41F5C322A91AC2D0060081B /* Let_sGoTravelingApp.swift in Sources */,
 			);
