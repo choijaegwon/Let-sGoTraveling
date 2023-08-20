@@ -12,6 +12,7 @@
 		D41F5C362A91AC2E0060081B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41F5C352A91AC2E0060081B /* Assets.xcassets */; };
 		D41F5C3A2A91AC2E0060081B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41F5C392A91AC2E0060081B /* Preview Assets.xcassets */; };
 		D41F5C412A91ACC40060081B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F5C402A91ACC40060081B /* Util.swift */; };
+		D41F5C432A91AE1B0060081B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F5C422A91AE1B0060081B /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D41F5C372A91AC2E0060081B /* Let_sGoTraveling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Let_sGoTraveling.entitlements; sourceTree = "<group>"; };
 		D41F5C392A91AC2E0060081B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D41F5C402A91ACC40060081B /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		D41F5C422A91AE1B0060081B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				D41F5C372A91AC2E0060081B /* Let_sGoTraveling.entitlements */,
 				D41F5C382A91AC2E0060081B /* Preview Content */,
 				D41F5C402A91ACC40060081B /* Util.swift */,
+				D41F5C422A91AE1B0060081B /* LoginView.swift */,
 			);
 			path = "Let'sGoTraveling";
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			files = (
 				D41F5C342A91AC2D0060081B /* MainView.swift in Sources */,
 				D41F5C412A91ACC40060081B /* Util.swift in Sources */,
+				D41F5C432A91AE1B0060081B /* LoginView.swift in Sources */,
 				D41F5C322A91AC2D0060081B /* Let_sGoTravelingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
