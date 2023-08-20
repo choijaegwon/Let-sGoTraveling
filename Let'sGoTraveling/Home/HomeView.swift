@@ -10,6 +10,11 @@ import SwiftUI
 struct HomeView: View {
 
     @State var currentTab: Int = 0
+    
+    private enum Constants {
+        /// TopTabBarView의 height
+        static let viewHeight: CGFloat = 50.0
+    }
 
     var body: some View {
         NavigationStack {
@@ -22,7 +27,7 @@ struct HomeView: View {
                     Text("test1")
                         .tag(1)
                 }
-                .padding(.top, 50)
+                .padding(.top, Constants.viewHeight)
                 TopTabBarView(currentTab: self.$currentTab)
             }
         }
