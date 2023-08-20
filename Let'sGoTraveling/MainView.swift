@@ -12,7 +12,7 @@ struct MainView: View {
     var body: some View {
         TabView {
             Group {
-                Text("Hi 1")
+                HomeView()
                     .tabItem {
                         Image(systemName: "house")
                     }
