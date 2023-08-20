@@ -15,10 +15,10 @@ struct TopTabBarView: View {
     var TopTabBarOptions: [String] = ["랜덤", "팔로잉"]
 
     private enum Constants {
-        /// 아이콘 width
+        /// 뷰의 width
         static let viewWidth: CGFloat = 150.0
 
-        /// 아이콘 height
+        /// 뷰의 height
         static let viewHeight: CGFloat = 50.0
     }
 
