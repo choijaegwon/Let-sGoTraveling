@@ -16,7 +16,7 @@ struct HomeView: View {
             ZStack(alignment: .top) {
                 TabView(selection: self.$currentTab) {
 
-                    Text("test0")
+                    RandomView()
                         .tag(0)
 
                     Text("test1")
