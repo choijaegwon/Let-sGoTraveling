@@ -8,6 +8,27 @@
 import SwiftUI
 
 struct RandomView: View {
+
+    private enum Constants {
+
+        /// view의 horizontal Padding
+        static let viewHorizontalPadding: CGFloat = 20.0
+
+        /// view의 bottom Padding
+        static let imageBottomPadding: CGFloat = 20.0
+
+        /// image의 width
+        static let imageWidth: CGFloat = 350.0
+        /// image의 height
+        static let imageHeight: CGFloat = 600.0
+
+        /// image의 Radius
+        static let cornerRadius: CGFloat = 20.0
+
+        /// StrokeColorOpcity
+        static let strokeColorOpacity: CGFloat = 0.3
+    }
+
     var body: some View {
         VStack {
             HStack {
@@ -23,25 +44,22 @@ struct RandomView: View {
                             Image("testImage")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
-                                .frame(width: 350)
-                                .frame(height: 600)
+                                .frame(width: Constants.imageWidth)
+                                .frame(height: Constants.imageHeight)
                                 .clipped()
                         }
                         .overlay(content: {
-                            RoundedRectangle(cornerRadius: 20)
-                                .stroke(
-                                    Color(red: 92 / 255, green: 213 / 255, blue: 204 / 255),
-                                    lineWidth: 0.7
-                                )
+                            RoundedRectangle(cornerRadius: Constants.cornerRadius)
+                                .stroke(.black.opacity(Constants.strokeColorOpacity))
                         })
-                        .cornerRadius(20)
-                        .padding(.bottom, 20)
+                        .cornerRadius(Constants.cornerRadius)
+                        .padding(.bottom, Constants.imageBottomPadding)
                     }
                 }
             }
 
         }
-        .padding(.horizontal, 20)
+        .padding(.horizontal, Constants.viewHorizontalPadding)
     }
 }
 
