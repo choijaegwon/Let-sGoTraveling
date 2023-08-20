@@ -19,6 +19,7 @@
 		D43B2C732A91CB5A007FA4EB /* RandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B2C722A91CB5A007FA4EB /* RandomView.swift */; };
 		D43B2C752A91CB75007FA4EB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B2C742A91CB75007FA4EB /* DetailView.swift */; };
 		D43B2C772A91CC5D007FA4EB /* FollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B2C762A91CC5D007FA4EB /* FollowView.swift */; };
+		D43B2C802A924951007FA4EB /* MyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B2C7F2A924951007FA4EB /* MyInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D43B2C722A91CB5A007FA4EB /* RandomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomView.swift; sourceTree = "<group>"; };
 		D43B2C742A91CB75007FA4EB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D43B2C762A91CC5D007FA4EB /* FollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowView.swift; sourceTree = "<group>"; };
+		D43B2C7F2A924951007FA4EB /* MyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			children = (
 				D43B2C6D2A91C379007FA4EB /* Home */,
 				D43B2C6A2A91C2FE007FA4EB /* Search */,
+				D43B2C7E2A924931007FA4EB /* MyInfo */,
 				D41F5C312A91AC2D0060081B /* Let_sGoTravelingApp.swift */,
 				D41F5C332A91AC2D0060081B /* MainView.swift */,
 				D41F5C422A91AE1B0060081B /* LoginView.swift */,
@@ -107,6 +110,14 @@
 				D43B2C762A91CC5D007FA4EB /* FollowView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		D43B2C7E2A924931007FA4EB /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				D43B2C7F2A924951007FA4EB /* MyInfoView.swift */,
+			);
+			path = MyInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 				D41F5C412A91ACC40060081B /* Util.swift in Sources */,
 				D43B2C6F2A91C401007FA4EB /* HomeView.swift in Sources */,
 				D41F5C432A91AE1B0060081B /* LoginView.swift in Sources */,
+				D43B2C802A924951007FA4EB /* MyInfoView.swift in Sources */,
 				D41F5C322A91AC2D0060081B /* Let_sGoTravelingApp.swift in Sources */,
 				D43B2C712A91C429007FA4EB /* TopTabBarView.swift in Sources */,
 				D43B2C732A91CB5A007FA4EB /* RandomView.swift in Sources */,

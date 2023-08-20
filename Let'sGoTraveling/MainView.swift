@@ -16,7 +16,7 @@ struct MainView: View {
                     .tabItem {
                         Image(systemName: "house")
                     }
-                Text("Hi 2")
+                SearchView()
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                     }
@@ -28,7 +28,7 @@ struct MainView: View {
                     .tabItem {
                         Image(systemName: "bookmark")
                     }
-                Text("Hi 5")
+                MyInfoView()
                     .tabItem {
                         Image(systemName: "person")
                     }
